@@ -1,19 +1,19 @@
-## this the codebook for this project
-Activity levels are 
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+# this the codebook for this project
+##Activity levels are 
+* 1 WALKING
+* 2 WALKING_UPSTAIRS
+* 3 WALKING_DOWNSTAIRS
+* 4 SITTING
+* 5 STANDING
+* 6 LAYING
 
-Measurements
-activityId
-subjectId
-tBodyAcc-mean()-X
-tBodyAcc-mean()-Y
-tBodyAcc-mean()-Z
-tBodyAcc-std()-X
+##Measurements Vector
+* activityId
+* subjectId
+* tBodyAcc-mean()-X
+* tBodyAcc-mean()-Y
+* tBodyAcc-mean()-Z
+* tBodyAcc-std()-X
 tBodyAcc-std()-Y
 tBodyAcc-std()-Z
 tBodyAcc-mad()-X
