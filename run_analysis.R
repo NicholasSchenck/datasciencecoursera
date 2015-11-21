@@ -46,4 +46,10 @@ testData = cbind(ytest,subjecttest,xtest);
 #Merge the test and training data sets
 mergedDataset <-rbind(trainingData,testData)
 
+# Return collumn means 
+meansDataset<- colMeans(mergedDataset)
+
+#write to table
+write.table(meansDataset, "meansdata.txt", sep="\t")
+
 
